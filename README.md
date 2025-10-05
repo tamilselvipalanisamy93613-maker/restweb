@@ -631,12 +631,13 @@ book.html
 ```
 
 ## OUTPUT:
+![alt text](<Screenshot (48).png>)
 ![alt text](<Screenshot (50)-1.png>)
 ![alt text](<Screenshot (51)-1.png>)
 ![alt text](<Screenshot (52)-1.png>)
 ![alt text](<Screenshot (53)-1.png>)
 ![alt text](<Screenshot (54)-1.png>)
-![alt text](<Screenshot (48).png>)
+
 
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
