@@ -159,11 +159,11 @@ home.html
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      background-color:teal;
+      background-color:aqua;
       color: black;
     }
     header {
-      background-color: teal;
+      background-color: cyan;
       color:black;
       padding: 1px 0;
       text-align: center;
@@ -175,13 +175,13 @@ home.html
       display: flex;
       justify-content: center;
       gap: 30px;
-      padding: 12px 0;
+      padding: 6px 0;
     }
     nav a {
       color: black;
       text-decoration: none;
       font-weight: 600;
-      font-size: 1.1em;
+      font-size: 1em;
     }
     nav a:hover {
       text-decoration: underline;
@@ -194,7 +194,7 @@ home.html
     .hero h2 {
       font-size: 2.5em;
       color: black;
-      margin-bottom: 20px;
+      margin-bottom: 1px;
     }
     .hero p {
       font-size: 1em;
@@ -246,7 +246,6 @@ home.html
       <a href="about.html">About</a>
       <a href="menu.html">Menu</a>
       <a href="contact.html">Contact</a>
-      <a href="booking.html">Book Table</a>
     </nav>
   </header>
 
@@ -264,12 +263,7 @@ home.html
       <div class="dish-item"><h3>POORI</h3></div>
       <div class="dish-item"><h3>CHICKEN</h3></div>
       <div class="dish-item"><h3>CHICKEN BIRIYANI</h3></div>
-      <div class="dish-item"><h3>MEALS</h3></div>
-      <div class="dish-item"><h3>PANI PURI</h3></div>
-      <div class="dish-item"><h3>EGG MASALA</h3></div>
-      <div class="dish-item"><h3>SANDWICH</h3></div>
-      <div class="dish-item"><h3>BUTTER CHICKEN</h3></div>
-      <div class="dish-item"><h3>CHICKEN WINGS</h3></div>
+
     </div>
   </section>
 
@@ -279,7 +273,7 @@ home.html
 </body>
 </html>
 
-admin.html
+about.html
 
 <!DOCTYPE html>
 <html lang="en">
@@ -337,38 +331,6 @@ admin.html
 </body>
 </html>
 
-contact.html
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Restaurant - Contact</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<header>
-  <h1>Tamil Restaurant</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="menu.html">Menu</a>
-    <a href="contact.html">Contact</a>
-    <a href="admin.html">Administration</a>
-  </nav>
-</header>
-
-<section class="contact">
-  <h2>Contact Us</h2>
-  <p>📍 no.143 kalaingnar street,Thanjavur</p>
-  <p>📞 ‪+91 9875432456 ‬</p>
-  <p>📧 EMAIL : tamil2008@gmail.com</p>
-</section>
-
-<footer>
-  <p>© 2025 Tamil Restaurant</p>
-</footer>
-</body>
-</html>
 
 menu.html
 
@@ -376,102 +338,98 @@ menu.html
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>TAMIL RESTAURANT</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: papayawhip;
-            color: #291515;
-        }
-        header {
-            background-color: black;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-            font-size: 2em;
-            font-weight: bold;
-        }
-        nav {
-            background-color:palevioletred;
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            padding: 12px 0;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 1.1em;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-                .menu {
-            padding: 40px 20px;
-            max-width: 900px;
-            margin: 0 auto;
-        }
-        .menu h2 {
-            text-align: center;
-            color: white;
-            margin-bottom: 30px;
-            font-size: 2em;
-        }
-        .menu-items {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            gap: 30px;
-        }
-        .menu-item {
-            background-color: grey;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            padding: 20px;
-            width: 250px;
-            text-align: center;
-        }
-        .menu-item img {
-            width: 100%;
-            border-radius: 6px;
-            margin-bottom: 10px;
-        }
-        .menu-item h3 {
-            margin-bottom: 8px;
-            color: whitesmoke;
-        }
-        .menu-item p {
-            font-size: 1em;
-            color: green;
-        }
-        footer {
-            background-color: blue;
-            color: white;
-            text-align: center;
-            padding: 18px 10px;
-            margin-top: 40px;
-        }
-    </style>    
+  <title>Tamil Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      color: burlywood
+      background-size: cover;
+    }
 
+    header {
+      background-color: pink;
+      text-align: center;
+      padding: 20px;
+    }
+
+    nav a {
+      color:black;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      background-color: rgba(0, 0, 0, 0.6);
+      margin: 20px auto;
+      padding: 20px;
+      width: 80%;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    img {
+      border-radius: 10px;
+      margin: 10px;
+    }
+
+    h2 {
+      color: pink;
+    }
+
+    footer {
+      background-color: rgba(0, 0, 0, 0.8);
+      text-align: center;
+      padding: 10px;
+      color: white;
+    }
+
+    .gallery, .admin-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .gallery img, .admin-gallery img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover, .admin-gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
 </head>
 <body>
-<header>
-  <h1>TAMIL RESTAURANT</h1>
-  <nav>
-    <a href="home.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="menu.html">Menu</a>
-    <a href="contact.html">Contact</a>
-    <a href="booking.html">Book Table</a>
-  </nav>
-</header>
- <section id="Menu" class="Menu">
-        <h1>Welcome to Tamil Restaurant</h1>
-        <p>Experience the best flavors of traditional and modern cuisine in a warm and welcoming atmosphere.</p>
-    </section>
- <img src="1.jpg"height="270",width="280"style="display:">
+  <header>
+    <h1>Tamil Restaurant</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="admin.html">Administration</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Welcome to Tamil Restaurant</h2>
+    <p>Enjoy the taste of authentic Tamil cuisine made with love and tradition.</p>
+    <img src="4.jpg" width="400">
+  </section>
+
+  <section>
+    <h2>Our Delicious Dishes</h2>
+    <div class="gallery">
+<img src="1.jpg"height="270",width="280"style="display:">
 <img src="2.jpg"height="270",width="280"style="display:">
  <img src="3.jpg"height="270",width="280"style="display:">
  <img src="4.jpg"height="270",width="280"style="display:">
@@ -482,10 +440,11 @@ menu.html
  <img src="9.jpg"height="270",width="280"style="display:">
  <img src="10.jpg"height="270",width="280"style="display:">
  <img src="11.jpg"height="270",width="280"style="display:">
- <img src="12.jpg"height="270",width="280"style="display:">
- 
+ <img src="12.jpg"height="270",width="280"style="display:">   
 
 
+    </div>
+  </section>
 
 
  <footer>
@@ -495,149 +454,274 @@ menu.html
 </body>
 </html>
 
-book.html
+
+contact.html
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>TAMIL RESTAURANT - Book Table</title>
+  <title>Contact Us - Tamil Restaurant</title>
+  <link rel="stylesheet" href="style.css">
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      background-color: pink;
-      color: #291515;
+      font-family: Arial, sans-serif;
+      color: #fff;
+      background: url('https://images.unsplash.com/photo-1556911220-84d65d7e2c05?q=80&w=1400') no-repeat center center fixed;
+      background-size: cover;
     }
+
     header {
-      background-color: blue;
-      color: black;
-      padding: 20px 0;
+      background-color: rgba(0, 100, 0, 0.85);
       text-align: center;
-      font-size: 2em;
+      padding: 20px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
       font-weight: bold;
     }
-    nav {
-      background-color: skyblue;
-      display: flex;
-      justify-content: center;
-      gap: 30px;
-      padding: 12px 0;
-    }
-    nav a {
-      color: black;
-      text-decoration: none;
-      font-weight: 600;
-      font-size: 1.1em;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    .booking-form {
-      max-width: 600px;
-      margin: 40px auto;
-      background-color: cyan;
-      padding: 30px;
+
+    nav a:hover { text-decoration: underline; }
+
+    section {
+      background-color: rgba(0, 0, 0, 0.7);
+      margin: 20px auto;
+      padding: 20px;
+      width: 85%;
       border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
-    .booking-form h2 {
-      text-align: center;
-      color: black;
-      margin-bottom: 25px;
-      font-size: 2em;
+
+    h2 { color: #FFD700; text-align: center; }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
-    .booking-form label {
-      display: block;
-      margin-bottom: 8px;
-      font-weight: 600;
+
+    label {
+      font-weight: bold;
+      margin-top: 10px;
+      margin-bottom: 5px;
     }
-    .booking-form input, 
-    .booking-form select, 
-    .booking-form textarea {
-      width: 100%;
-      padding: 5px;
-      margin-bottom: 10px;
-      border-radius: 6px;
-      border: 1px solid #ccc;
-      font-size: 1em;
-    }
-    .booking-form button {
-      background-color: white;
-      color: white;
-      padding: 12px 20px;
+
+    input, textarea, button {
+      width: 80%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 5px;
       border: none;
-      border-radius: 6px;
-      font-size: 1.1em;
+    }
+
+    textarea { resize: vertical; }
+
+    button {
+      background-color: green;
+      color: white;
+      font-size: 16px;
       cursor: pointer;
-      width: 100%;
+      transition: 0.3s;
     }
-    .booking-form button:hover {
-      background-color: black;
+
+    button:hover {
+      background-color: darkgreen;
     }
+
     footer {
-      background-color: yellowgreen;
-      color: black;
+      background-color: rgba(0, 0, 0, 0.8);
       text-align: center;
-      padding: 12px 10px;
-      margin-top: 5px;
+      padding: 10px;
+      color: white;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
   <header>
-    TAMIL RESTAURANT
+    <h1>Contact Us</h1>
     <nav>
       <a href="home.html">Home</a>
-      <a href="about.html">About</a>
       <a href="menu.html">Menu</a>
-      <a href="contact.html">Contact</a>
-      <a href="booking.html">Book Table</a>
+      <a href="admin.html">Administration</a>
+      <a href="contact.html">Contact Us</a>
     </nav>
   </header>
 
-  <section class="booking-form">
-    <h2>Book a Table</h2>
-    <form action="#" method="POST">
-      <label for="name">Full Name</label>
-      <input type="text" id="name" name="name" placeholder="Your name" required>
+  <section>
+    <h2>Get in Touch</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Your Name" required>
 
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Your Email" required>
 
-      <label for="phone">Phone Number</label>
-      <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+      <label for="message">Message:</label>
+      <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
 
-      <label for="guests">Number of Guests</label>
-      <input type="number" id="guests" name="guests" min="1" placeholder="Number of Guests" required>
-
-      <label for="date">Date</label>
-      <input type="date" id="date" name="date" required>
-
-      <label for="time">Time</label>
-      <input type="time" id="time" name="time" required>
-
-      <button type="submit">Book Now</button>
+      <button type="submit">Send Message</button>
     </form>
   </section>
 
   <footer>
-    <p>© 2025 Designed By Tamilselvi-25017628</p>
+    <p>© 2025 Tamil Restaurant | All Rights Reserved</p>
   </footer>
 </body>
 </html>
 
 
+admin.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Administration - Tamil Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color:black;
+      background: url('https://images.unsplash.com/photo-1560264280-44a2f8e6e8a1?q=80&w=1400') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    header {
+      background-color: pink;
+      text-align: center;
+      padding: 20px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover { text-decoration: underline; }
+
+    section {
+      background-color: rgba(0, 0, 0, 0.7);
+      margin: 20px auto;
+      padding: 20px;
+      width: 85%;
+      border-radius: 10px;
+    }
+
+    h2 { color: #FFD700; text-align: center; }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    label {
+      font-weight: bold;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+
+    input, textarea, button {
+      width: 80%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: none;
+    }
+
+    button {
+      background-color:pink;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: blueviolet;
+    }
+
+    .admin-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .admin-gallery img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+
+    .admin-gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: rgba(0, 0, 0, 0.8);
+      text-align: center;
+      padding: 10px;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Administration Panel</h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="admin.html">Administration</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Manage Menu Items</h2>
+    <form>
+      <label>Dish Name:</label>
+      <input type="text" placeholder="Enter dish name">
+
+      <label>Price:</label>
+      <input type="number" placeholder="Enter price">
+
+      <label>Description:</label>
+      <textarea placeholder="Enter description"></textarea>
+
+      <button type="submit">Add Item</button>
+    </form>
+  </section>
+
+  
+
+  <footer>
+    <p>© 2025 Tamil Restaurant | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
+
+
+
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot (48).png>)
-![alt text](<Screenshot (50)-1.png>)
-![alt text](<Screenshot (51)-1.png>)
-![alt text](<Screenshot (52)-1.png>)
-![alt text](<Screenshot (53)-1.png>)
-![alt text](<Screenshot (54)-1.png>)
-
+![alt text](<Screenshot (79).png>)
+![alt text](<Screenshot (74).png>)
+![alt text](<Screenshot (78).png>)
+![alt text](<Screenshot (80).png>)
+![alt text](<Screenshot (81).png>)
+![alt text](<Screenshot (83).png>)
 
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
